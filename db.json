@@ -1,0 +1,159 @@
+{
+  "Posts": [
+    {
+      "title": "Ayman",
+      "img": "https://picsum.photos/id/10/2500/1667",
+      "body": "Newpost ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+      "author": "author",
+      "id": 7
+    },
+    {
+      "title": "Travis scoot",
+      "img": "https://picsum.photos/id/11/2500/1667",
+      "body": "New post number 3 this post for creating a new img with laroc erogijiorjgiorje g",
+      "author": "Coder",
+      "id": 8
+    },
+    {
+      "title": "ahmed",
+      "img": "https://picsum.photos/id/13/2500/1667",
+      "body": "edaedea",
+      "author": "admin",
+      "id": 10
+    },
+    {
+      "title": "zakaria",
+      "img": "https://picsum.photos/id/15/2500/1667",
+      "body": "ziko post",
+      "author": "Coder",
+      "id": 13
+    },
+    {
+      "title": "Youssef rojola",
+      "img": "https://picsum.photos/id/15/2500/1667",
+      "body": "ana smiti youssef l7yat dyali 3ibara 3n downloads dyal les playlist, li gal liya salam tncharji playlist ",
+      "author": "author",
+      "id": 14
+    },
+    {
+      "title": "brahim ",
+      "img": "https://picsum.photos/id/11/2500/1667",
+      "body": "oihuoihouihoiuhoi",
+      "author": "Coder",
+      "id": 16
+    },
+    {
+      "title": "ziko2",
+      "img": "https://picsum.photos/id/11/2500/1667",
+      "body": "orgoijerogijeroigj",
+      "author": "Coder",
+      "id": 17
+    },
+    {
+      "title": "achraf",
+      "img": "https://picsum.photos/id/10/2500/1667",
+      "body": "hohoirhegoihoiegh",
+      "author": "Coder",
+      "id": 18
+    },
+    {
+      "title": "youssef",
+      "img": "https://picsum.photos/id/10/2500/1667",
+      "body": "iophjoirehgoerg",
+      "author": "admin",
+      "id": 19
+    }
+  ],
+  "Acc": [
+    {
+      "id": 1,
+      "fname": "Ayman",
+      "lname": "akartit",
+      "tel": "0658447258",
+      "email": "aakartit@gmail.com",
+      "CIN": "sh214092",
+      "domain": "Development",
+      "pswd": "AZERTY098765"
+    },
+    {
+      "fname": "Ayman",
+      "lname": "akartit",
+      "tel": "0658447258",
+      "email": "aakartitam@gmail.com",
+      "CIN": "sh214092",
+      "domain": "development",
+      "pswd": "hello1",
+      "id": 2
+    },
+    {
+      "fname": "zakaria",
+      "lname": "brahmi",
+      "tel": "0626727691",
+      "email": "zziko@gmail.com",
+      "CIN": "SH2381",
+      "domain": "DD",
+      "pswd": "ziko123",
+      "id": 3
+    },
+    {
+      "fname": "youssef",
+      "lname": "blouz",
+      "tel": "212689769787",
+      "email": "youssef@gmail.com",
+      "CIN": "sh223141",
+      "domain": "dd",
+      "pswd": "playlist",
+      "id": 4
+    },
+    {
+      "fname": "achraf",
+      "lname": "akartit",
+      "tel": "079966942",
+      "email": "achraf@gmail.com",
+      "CIN": "sh072498",
+      "domain": "groi",
+      "pswd": "123",
+      "id": 5
+    },
+    {
+      "fname": "youssef",
+      "lname": "ziko",
+      "tel": "0658447258",
+      "email": "youssefziko@gmail.com",
+      "CIN": "sh214092",
+      "domain": "dd²",
+      "pswd": "123",
+      "id": 6
+    },
+    {
+      "fname": "brahim",
+      "lname": "zaml",
+      "tel": "067844574",
+      "email": "brahim22@gmail.com",
+      "CIN": "sh20370",
+      "domain": "ngafa",
+      "pswd": "hello1",
+      "id": 7
+    },
+    {
+      "fname": "Ahmed",
+      "lname": "totiy",
+      "tel": "80907678",
+      "email": "gergregerg@gmail.com",
+      "CIN": "gh70808",
+      "domain": "oijo",
+      "pswd": "hio",
+      "id": 8
+    },
+    {
+      "fname": "achraf",
+      "lname": "koko",
+      "tel": "0697605579",
+      "email": "achrf@gmail.com",
+      "CIN": "ch089780",
+      "domain": "development",
+      "pswd": "hello",
+      "id": 9
+    }
+  ]
+}
