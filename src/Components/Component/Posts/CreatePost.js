@@ -12,7 +12,7 @@ const CreatePost = () => {
     }
     function submitfunc(e){
         e.preventDefault();
-        fetch(" http://localhost:5000/posts",{
+        fetch("https://posts-data-server.onrender.com/posts",{
             method:"POST",
             headers:{"Content-type":"application/json"},
             body:JSON.stringify(postdata),
@@ -22,7 +22,7 @@ const CreatePost = () => {
         })
     }
     const Update = (id) => {
-        fetch(`http://localhost:5000/Posts/${parseInt(id)}`,{
+        fetch(`https://posts-data-server.onrender.com/Posts/${parseInt(id)}`,{
             method:'DELETE',
         }).then(()=>{
             alert('post Added')

@@ -9,7 +9,7 @@ const Posts = () => {
         seterrMsg(null);
         setTimeout(
             ()=>{
-                fetch(" http://localhost:5000/Posts")
+                fetch("https://posts-data-server.onrender.com/Posts")
                 .then((res) => {
                         if (!res.ok) {
                             throw Error(res.statusText ? res.statusText : "error");
@@ -30,7 +30,7 @@ const Posts = () => {
     }, []);
     const Delete = (id) => {
         // setposts([...posts.filter((e) => e.id !== id)])
-        fetch(`http://localhost:5000/Posts/${parseInt(id)}`,{
+        fetch(`https://posts-data-server.onrender.com/Posts/${parseInt(id)}`,{
             method:'DELETE',
         }).then(()=>{
             alert('post deleted')

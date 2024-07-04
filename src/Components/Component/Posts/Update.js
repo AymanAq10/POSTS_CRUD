@@ -32,7 +32,7 @@ const Update = () => {
         console.log(postdata);
     }
     useEffect(()=>{
-        fetch(`http://localhost:5000/posts/${parseInt(id)}`)
+        fetch(`https://posts-data-server.onrender.com/posts/${parseInt(id)}`)
         .then((res)=>res.json())
         .then((data)=>{
             settitle(data.title);
@@ -43,7 +43,7 @@ const Update = () => {
     },[])
     function submitfunc(e){
         e.preventDefault();
-        fetch(`http://localhost:5000/posts/${parseInt(id)}`,{
+        fetch(`https://posts-data-server.onrender.com/posts/${parseInt(id)}`,{
             method:"PATCH",
             headers:{"Content-type":"application/json"},
             body:JSON.stringify({

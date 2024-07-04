@@ -10,7 +10,7 @@ const Postdetails = () => {
     useEffect(() => {
         setisloading(true);
         seterrMsg(null);
-        fetch(`http://localhost:5000/Posts/${parseInt(id)}`)
+        fetch(`https://posts-data-server.onrender.com/Posts/${parseInt(id)}`)
             .then((res) => {
                 if (!res.ok) {
                     throw Error(res.statusText ? res.statusText : "error");
@@ -28,7 +28,7 @@ const Postdetails = () => {
             });
     },[id]);
     const Delete = () => {
-        fetch(`http://localhost:5000/Posts/${parseInt(id)}`,{
+        fetch(`https://posts-data-server.onrender.com/Posts/${parseInt(id)}`,{
             method:'DELETE',
         }).then(()=>{
             alert('post deleted')
