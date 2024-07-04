@@ -11,6 +11,7 @@ const Update = () => {
     const [author,setauthor]=useState('')
     function handlechange(e){
         const {value,name}=e.target;
+        console.log(name," from : ",author, " to ",value)
         switch (name) {
             case "title":
                 settitle(value);
@@ -26,7 +27,7 @@ const Update = () => {
                 console.log(value);
                 break;
         }
-        name==="author"?setauthor(name):setauthor((e)=>e);
+        // name==="author"?setauthor(name):setauthor((e)=>e);
         setpostdata({...postdata,[name]:value});
         console.log(postdata);
     }
@@ -69,10 +70,10 @@ const Update = () => {
                     <label>Blog body :</label>
                     <textarea required rows={"10"} name="body" value={body} onChange={(e)=>handlechange(e)}></textarea>
                     <label>Blog author :</label>
-                    <select name="author" value={author} onChange={(e)=>handlechange(e)}>
-                        <option disabled></option>
-                        <option value={"admin"}>admin</option>
-                        <option value={"Coder"}>Coder</option>
+                    <select name="author" onChange={(e)=>handlechange(e)}>
+                        <option value={author}>{author}</option>
+                        {author === "admin" && <option value={"Coder"}>Coder</option>}
+                        {author === "Coder" && <option value={"admin"}>admin</option>}
                     </select>
                     <button className="btn" type="submmit">
                         Update Blog

@@ -43,10 +43,10 @@ const Postdetails = () => {
             <div className="post-details-title">
                 <h1>{posts.title}</h1>
                 <div>
+                <button className="btn btn-danger" onClick={Delete}>Delete</button>
                 <Link className="btn btn-danger" to={`/Update/${posts.id}`}>
                     Update
                 </Link>
-                <button className="btn btn-danger" onClick={Delete}>Delete</button>
                 </div>
             </div>
             <img
