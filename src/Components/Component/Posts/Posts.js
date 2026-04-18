@@ -25,7 +25,7 @@ const Posts = () => {
                         seterrMsg(err.message);
                     });
                 }
-                ,3000)
+                ,1000)
 
     }, []);
     const Delete = (id) => {
